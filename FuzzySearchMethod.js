@@ -1,4 +1,9 @@
   
+// Main function is search function..
+
+// call search which will call all other functions & used dummy data for now
+
+
   const dummyData = [{ name: "zeeshan" }, { name: "Ali" }];
   const createSearchCombinations = (searchText) => {
     const regex = /(\w+)[\/\s]([\s\S]*)/m;
@@ -125,4 +130,10 @@
     return filteredData;
   };
 
+
+
+
+
+
+// Main Fnnc
   console.log(search("a"))
